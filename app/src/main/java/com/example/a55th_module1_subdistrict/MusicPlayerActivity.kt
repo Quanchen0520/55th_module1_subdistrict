@@ -27,7 +27,7 @@ class MusicPlayerActivity : AppCompatActivity() {
             isplaying = if (isplaying){
                 playBtn.setImageResource(R.drawable.outline_play_arrow_24)
                 !isplaying
-            }else{
+            } else{
                 playBtn.setImageResource(R.drawable.sharp_pause_24)
                 !isplaying
             }
